@@ -1,0 +1,12 @@
+CREATE DATABASE growing_logic DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+
+CREATE TABLE usuario (
+    id INT NOT NULL AUTO_INCREMENT,
+    login VARCHAR(45) NOT NULL,
+    password VARCHAR(45) NOT NULL,
+    email VARCHAR(15) DEFAULT NULL,
+    phone VARCHAR(15) DEFAULT NULL,
+    web_flags INT(11) DEFAULT 1,
+    position VARCHAR(45) DEFAULT NULL,
+    PRIMARY KEY(id)
+);
