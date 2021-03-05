@@ -71,7 +71,7 @@ $title = 'Growing Logic';
                             <li class="scroll-to-section"><a href="<?PHP echo $template_path; ?>#contact-us" class="menu-item">Contate-nos</a></li>
                         </ul>
                         <a class='menu-trigger'>
-                            <span>Menu</span>
+                            <span>Menuasdasddddddddddddddddddd</span>
                         </a>
                         <!-- ***** Menu End ***** -->
                     </nav>
