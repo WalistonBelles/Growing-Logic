@@ -1,6 +1,6 @@
 <?php
 /**
- * Project: MyAAC
+ * Project: Growing Logic
  *     Web platform to aid the teaching of computational thinking for public and private institutions
  *
  * @package   Growing Logic
