@@ -9,10 +9,10 @@
  * @copyright 2021 Growing Logic
  */
 
- 
-$config = array(
-    'database_host' => 'localhost',
-	'database_name' => 'growing_logic',
-	'database_user' => 'root',
-	'database_password' => ''
-);
+ // directories
+define('BASE', dirname(__FILE__) . '/');
+define('CONTROLLER', BASE . 'controller/');
+define('ASSETS', BASE . 'assets/');
+define('LOGS', BASE . 'logs/');
+define('PAGES', BASE . 'pages/');
+define('TEMPLATES', BASE . 'template/');
